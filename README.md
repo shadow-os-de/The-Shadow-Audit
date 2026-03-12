@@ -34,5 +34,5 @@ Das aktuelle politische System ("Einheitsbrei") operiert auf Basis veralteter Da
 ## 🛡️ Sicherheit & Anonymität
 Dieses Projekt wird von der **Shadow OS Architecture Group** (Lead Architect: [Dein Pseudonym]) betrieben. Wir priorisieren rationale Fakten über Personenidentitäten.
 
-**Kontakt:** [Deine ProtonMail-Adresse]
-**Substack:** [Link zu deinem Substack]
+**Kontakt:** [[shadow-os-de@proton.me]]
+**Substack:** [[https://substack.com/@shadowaudit]]
