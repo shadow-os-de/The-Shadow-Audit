@@ -25,6 +25,14 @@ Visualisierung der Ergebnisse im direkten Vergleich zum Legacy-System:
 * **Kaufkraft-Erhalt:** Shadow OS vs. Fiat-Währungen.
 * **System-Stabilität:** Visualisierung der Resilienz-Puffer bei Marktschocks.
 
+### 📸 Visual Audit & Dashboard
+![Dashboard Übersicht](dashboard_main.png)
+
+#### Transparenz-Check (Back-End)
+| Datenquelle (Markt) | Berechnungs-Logik (Contract) |
+| :--- | :--- |
+| ![World Engine](audit_world_engine.png) | ![Shadow Logic](audit_shadow_logic.png) |
+
 ## 🧠 Die Logik hinter den Zahlen (Logic Reference)
 
 Um die Simulation transparent und nachvollziehbar zu gestalten, nutzt das Shadow OS definierte Konstanten und algorithmische Regeln.
