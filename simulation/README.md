@@ -45,6 +45,16 @@ Die Simulation folgt einer strikten Hierarchie, um die Systemstabilität niemals
 * **Kaufkraft-Delta:** Die Differenz zwischen der Legacy-Kaufkraft und der Shadow-OS-Dividende ist der Erfolgsindikator des Systems.
 * **Resilienz-Modus:** Sinkt die Dividende während eines Yen-Schocks leicht ab, ist dies der Beweis für das Greifen der Sicherheitsmechanismen (**Safety-First-Logik**). Das System schützt den Wertbestand vor der kurzfristigen Auszahlung.
 
+## 📊 Interpretation: Shadow OS vs. Fiat-Entwertung
+
+Die grafische Auswertung der Simulation (Dashboard) verdeutlicht die Geburtsstunde einer algorithmischen Zuflucht. Während die Kurve des Legacy-Systems durch Inflation und Ineffizienz an realem Wert verliert, zeigt das Shadow OS eine stabile **Efficiency Dividend**.
+
+**Zentrale Beobachtungen:**
+1. **Resilienz:** Bei externen Schocks (simulierter Yen-Kollaps) greift der *Stability Trigger*. Das System drosselt kurzzeitig die Auszahlung, um die Asset-Deckung zu erhöhen. Das schützt den langfristigen Wertbestand.
+2. **Kaufkraft-Erhalt:** Während der Bürger im alten System real verarmt, entkoppelt sich das Shadow OS durch automatisierte Effizienzgewinne.
+
+Diese Simulation beweist: Das Shadow OS ist eine mathematische Notwendigkeit für eine stabile Zukunft in Zeiten maximaler struktureller Instabilität.
+
 ## 🚀 Nutzung
 1. Lade die Datei `Shadow_OS_Economic_Simulator_v1.xlsx` herunter.
 2. Öffne sie in Excel oder Google Sheets.
