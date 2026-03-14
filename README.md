@@ -31,6 +31,36 @@ Das aktuelle politische System ("Einheitsbrei") operiert auf Basis veralteter Da
 
 ---
 
+# 🛡️ Shadow OS: The Architecture of Resilience
+
+Shadow OS ist ein algorithmisches Framework zur Überwindung systemischer Instabilität. Es ersetzt "Professional Obfuscation" durch einen unbestechlichen **Root-Contract (LAW)**.
+
+## 🏗️ Die 9 Module der Architektur
+Das System ist modular aufgebaut, um alle kritischen gesellschaftlichen Bereiche abzudecken:
+
+1. **URF (Finance)**: Asset-gestützte Währung & Efficiency Dividends.
+2. **Governance**: Der Human-Only Airgap zwischen KI & Entscheidung.
+3. **Civic**: Echtzeit-Partizipation & Bürger-Audits.
+4. **RAC (Migration)**: Ressourcen-basierte Kapazitätssteuerung.
+5. **Culture**: Schutz der Identität durch den Cultural Preservation Fund.
+6. **Health**: Proaktive Pflege durch das HT-Token Modell.
+7. **Guardian**: Hard-coded Kinderschutz & Sicherheit für Vulnerable.
+8. **Infrastructure**: Dezentrale Resilienz & IOT-Mesh-Netzwerke.
+9. **Life-Cycle**: Zirkuläre Asset-Erhaltung & Rohstoff-Tracking.
+
+## 📊 Dokumentation & Mathematik
+Detaillierte Ausarbeitungen und mathematische Belege findest du im `/docs` Verzeichnis:
+
+* [Economic Blueprint](./docs/ECONOMIC_BLUEPRINT.md) – Die Kalkulation der Einsparungen.
+* [Calculation Guide](./docs/CALCULATION_GUIDE.md) – Anleitung zur lokalen Implementierung.
+* [System Reality Check](./docs/USE_CASES.md) – Use Cases: Legacy vs. Shadow OS.
+* [Opposition Manual](./docs/OPPOSITION_MANUAL.md) – Strategisches FAQ zur Dekonstruktion alter Narrative.
+
+## 🚀 Vision
+Wir bauen nicht nur eine Theorie, sondern ein prüfbares System. Das Shadow OS ist die Antwort auf die "Phase of Maximum Structural Instability".
+
+---
+
 ## 🛡️ Sicherheit & Anonymität
 Dieses Projekt wird von der **Shadow OS Architecture Group** (Lead Architect: [Dein Pseudonym]) betrieben. Wir priorisieren rationale Fakten über Personenidentitäten.
 
