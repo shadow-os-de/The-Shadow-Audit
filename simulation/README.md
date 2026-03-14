@@ -25,6 +25,26 @@ Visualisierung der Ergebnisse im direkten Vergleich zum Legacy-System:
 * **Kaufkraft-Erhalt:** Shadow OS vs. Fiat-Währungen.
 * **System-Stabilität:** Visualisierung der Resilienz-Puffer bei Marktschocks.
 
+## 🧠 Die Logik hinter den Zahlen (Logic Reference)
+
+Um die Simulation transparent und nachvollziehbar zu gestalten, nutzt das Shadow OS definierte Konstanten und algorithmische Regeln.
+
+### 1. Definition der Konstanten
+* **Efficiency Factor (40%):** Dieser Wert basiert auf Benchmarks zur Automatisierung administrativer Prozesse durch KI. Er repräsentiert das freigesetzte Kapital, das im Legacy-System durch "Professional Obfuscation" und manuelle Bürokratie gebunden ist.
+* **Base Stability Buffer (5%):** Die Standard-Rücklage für die Wartung der physischen Infrastruktur (Modul VIII) und System-Updates.
+* **Crisis Buffer (25%):** Ein vordefinierter Schwellenwert, der bei systemischen Risiken (z. B. USD/JPY < 150) aktiviert wird, um die interne Währung durch eine höhere Asset-Deckung zu panzern.
+
+### 2. Spalten-Logik & Algorithmischer Flow
+Die Simulation folgt einer strikten Hierarchie, um die Systemstabilität niemals zu gefährden:
+1.  **Erfassung:** Das `Efficiency_Oracle` identifiziert das Einsparungspotenzial.
+2.  **Absicherung:** Der `Stability_Trigger` prüft externe Marktdaten. Bei Gefahr wird die Sicherheitspriorität automatisch erhöht.
+3.  **Bereinigung:** Der `Inflation_Adjuster` neutralisiert die Kaufkraftverluste der Außenwelt innerhalb des Systems.
+4.  **Distribution:** Erst nach Abzug aller Puffer errechnet der `Dividend_Distributor` die finale Auszahlung an die Bürger-Nodes.
+
+### 3. Interpretation der Ergebnisse
+* **Kaufkraft-Delta:** Die Differenz zwischen der Legacy-Kaufkraft und der Shadow-OS-Dividende ist der Erfolgsindikator des Systems.
+* **Resilienz-Modus:** Sinkt die Dividende während eines Yen-Schocks leicht ab, ist dies der Beweis für das Greifen der Sicherheitsmechanismen (**Safety-First-Logik**). Das System schützt den Wertbestand vor der kurzfristigen Auszahlung.
+
 ## 🚀 Nutzung
 1. Lade die Datei `Shadow_OS_Economic_Simulator_v1.xlsx` herunter.
 2. Öffne sie in Excel oder Google Sheets.
