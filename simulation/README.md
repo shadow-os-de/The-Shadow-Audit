@@ -3,11 +3,13 @@
 Dieser Ordner enthält den logischen Prototyp des Shadow OS in Form einer interaktiven Simulations-Engine. Bevor der Root-Contract in Code (Solidity/C++) gegossen wird, dient diese Simulation zur Validierung der ökonomischen Logik unter Stressbedingungen.
 
 ## 🎯 Zweck der Simulation
-Die Simulation beweist die Resilienz des Shadow OS gegenüber makroökonomischen Schocks, insbesondere der **"Phase of Maximum Structural Instability"** (z.B. Zusammenbruch des Yen-Carry-Trades oder extreme Inflation).
+Die Simulation beweist die Resilienz des Shadow OS gegenüber makroökonomischen Schocks, insbesondere der **"Phase of Maximum Structural Instability"** (z.B. Zusammenbruch des Yen-Carry-Trades oder extreme Inflation). 
+
+Ziel ist es, den algorithmischen Übergang von einer inflationsgetriebenen Fiat-Ökonomie zu einem effizienten, asset-gedeckten System mathematisch zu verifizieren.
 
 ## 🏗️ Aufbau der Datei (`.xlsx`)
 
-Die Simulation ist in drei logische Schichten unterteilt:
+Die Simulation ist in drei logische Schichten unterteilt, die den späteren Tech-Stack widerspiegeln:
 
 ### 1. WORLD_ENGINE (Input Layer)
 Hier werden die externen Marktdaten eingespeist. 
@@ -16,61 +18,45 @@ Hier werden die externen Marktdaten eingespeist.
 
 ### 2. SHADOW_LOGIC (Processing Layer / Smart Contracts)
 Diese Ebene bildet die mathematischen Funktionen der Smart Contracts ab:
-* **Efficiency_Oracle:** Berechnet die automatische Reduktion der Verwaltungskosten.
+* **Efficiency_Oracle:** Berechnet die automatische Reduktion der Verwaltungskosten durch algorithmische Prozesse.
 * **Stability_Trigger:** Reagiert algorithmisch auf Währungsschwankungen (z.B. automatische Erhöhung der Asset-Deckung bei USD/JPY < 150).
-* **Dividend_Distributor:** Berechnet die monatliche **Efficiency Dividend** pro Bürger-Node.
-
-### 3. DASHBOARD (Output Layer)
-Visualisierung der Ergebnisse im direkten Vergleich zum Legacy-System:
-* **Kaufkraft-Erhalt:** Shadow OS vs. Fiat-Währungen.
-* **System-Stabilität:** Visualisierung der Resilienz-Puffer bei Marktschocks.
+* **Dividend_Distributor:** Berechnet die monatliche Auszahlung basierend auf der Netto-Effizienz.
+* **System_Loss (Spalte F):** Dokumentiert die verbleibende Systemreibung und dient als Puffer zur Absicherung.
 
 ### 📸 Visual Audit & Dashboard
+Das Dashboard visualisiert die Resilienz-Strategie: Kaufkraft-Erhalt, der algorithmische Stability-Trigger (Yen-Schutz) und das hocheffiziente Auszahlungsverhältnis.
+
 ![Dashboard Übersicht](dashboard_main.png)
 
 #### Transparenz-Check (Back-End)
-| Datenquelle (Markt) | Berechnungs-Logik (Contract) |
-| :--- | :--- |
-| ![World Engine](audit_world_engine.png) | ![Shadow Logic](audit_shadow_logic.png) |
+| A) Marktdaten (Engine) | B) Logik (Contract) | C) Wirkungsgrad (Ratio) |
+| :--- | :--- | :--- |
+| ![World Engine](audit_engine.png) | ![Shadow Logic](audit_logic.png) | ![Efficiency Ratio](audit_efficiency.png) |
 
-## 🧠 Die Logik hinter den Zahlen (Logic Reference)
+## 🧠 Die Logik hinter den Zahlen
 
-Um die Simulation transparent und nachvollziehbar zu gestalten, nutzt das Shadow OS definierte Konstanten und algorithmische Regeln.
+Das System operiert nach dem Prinzip der **maximalen Extraktion von Ineffizienz**. Während traditionelle Finanzsysteme durch Bürokratie und Inflation Wert vernichten, schützt der Shadow OS Algorithmus den Wertbestand durch:
 
-### 1. Definition der Konstanten
-* **Efficiency Factor (40%):** Dieser Wert basiert auf Benchmarks zur Automatisierung administrativer Prozesse durch KI. Er repräsentiert das freigesetzte Kapital, das im Legacy-System durch "Professional Obfuscation" und manuelle Bürokratie gebunden ist.
-* **Base Stability Buffer (5%):** Die Standard-Rücklage für die Wartung der physischen Infrastruktur (Modul VIII) und System-Updates.
-* **Crisis Buffer (25%):** Ein vordefinierter Schwellenwert, der bei systemischen Risiken (z. B. USD/JPY < 150) aktiviert wird, um die interne Währung durch eine höhere Asset-Deckung zu panzern.
-
-### 2. Spalten-Logik & Algorithmischer Flow
-Die Simulation folgt einer strikten Hierarchie, um die Systemstabilität niemals zu gefährden:
-1.  **Erfassung:** Das `Efficiency_Oracle` identifiziert das Einsparungspotenzial.
-2.  **Absicherung:** Der `Stability_Trigger` prüft externe Marktdaten. Bei Gefahr wird die Sicherheitspriorität automatisch erhöht.
-3.  **Bereinigung:** Der `Inflation_Adjuster` neutralisiert die Kaufkraftverluste der Außenwelt innerhalb des Systems.
-4.  **Distribution:** Erst nach Abzug aller Puffer errechnet der `Dividend_Distributor` die finale Auszahlung an die Bürger-Nodes.
-
-### 3. Interpretation der Ergebnisse
-* **Kaufkraft-Delta:** Die Differenz zwischen der Legacy-Kaufkraft und der Shadow-OS-Dividende ist der Erfolgsindikator des Systems.
-* **Resilienz-Modus:** Sinkt die Dividende während eines Yen-Schocks leicht ab, ist dies der Beweis für das Greifen der Sicherheitsmechanismen (**Safety-First-Logik**). Das System schützt den Wertbestand vor der kurzfristigen Auszahlung.
+1. **Dynamische Asset-Sicherung:** Der Trigger (Spalte C in World Engine) schützt den Wertbestand vor der kurzfristigen Auszahlung, sobald die Marktstabilität (Yen-Trade) bricht.
+2. **Efficiency Dividend:** Das System erkennt unnötige Kostenstrukturen und wandelt diese direkt in Nutzer-Dividenden um.
 
 ## 📊 Interpretation: Shadow OS vs. Fiat-Entwertung
 
-Die grafische Auswertung der Simulation (Dashboard) verdeutlicht die Geburtsstunde einer algorithmischen Zuflucht. Während die Kurve des Legacy-Systems durch Inflation und Ineffizienz an realem Wert verliert, zeigt das Shadow OS eine stabile **Efficiency Dividend**.
+Die grafische Auswertung der Simulation (Dashboard) verdeutlicht die Geburtsstunde einer algorithmischen Zuflucht. 
 
-**Zentrale Beobachtungen:**
-1. **Resilienz:** Bei externen Schocks (simulierter Yen-Kollaps) greift der *Stability Trigger*. Das System drosselt kurzzeitig die Auszahlung, um die Asset-Deckung zu erhöhen. Das schützt den langfristigen Wertbestand.
-2. **Kaufkraft-Erhalt:** Während der Bürger im alten System real verarmt, entkoppelt sich das Shadow OS durch automatisierte Effizienzgewinne.
+* **Resilienz:** Bei externen Schocks (simulierter Yen-Kollaps) greift der *Stability Trigger*. Das System drosselt kurzzeitig die Auszahlung, um die Asset-Deckung zu erhöhen. Das schützt den langfristigen Wertbestand.
+* **Kaufkraft-Erhalt:** Während der Bürger im alten System real verarmt, entkoppelt sich das Shadow OS durch automatisierte Effizienzgewinne.
+* **Efficiency Ratio:** Das 100%-gestapelte Diagramm beweist visuell: Über 80% des generierten Wertes fließen direkt an die Nodes (Nutzer), während der "System-Loss" (Rot) minimiert wird.
 
 Diese Simulation beweist: Das Shadow OS ist eine mathematische Notwendigkeit für eine stabile Zukunft in Zeiten maximaler struktureller Instabilität.
 
 ## 🚀 Nutzung
-1. Lade die Datei `Shadow_OS_Economic_Simulator_v1.xlsx` herunter.
+1. Lade die Datei `shadow_os_simulation_2026.xlsx` herunter.
 2. Öffne sie in Excel oder Google Sheets.
 3. Ändere die Werte im Reiter `WORLD_ENGINE`, um zu sehen, wie sich die Dividende und die Systemsicherheit in Echtzeit anpassen.
 
 ## 🛠️ Roadmap: From Logic to Code
-Die hier validierten Formeln dienen als direkte Vorlage für die Entwicklung der Smart Contracts:
-- [x] Logik-Design (Excel)
-- [ ] Mathematisches Stress-Testing
-- [ ] Portierung der Logik nach Solidity (Smart Contracts)
-- [ ] Integration in das Mesh-Netzwerk-Protokoll
+- [x] Logik-Design (Excel Prototype)
+- [x] Mathematisches Stress-Testing (Yen-Shock Scenario)
+- [ ] Portierung der Logik in Smart Contracts (Solidity)
+- [ ] Integration des Real-Time Oracle Feeds
