@@ -31,7 +31,7 @@ Das Dashboard visualisiert die Resilienz-Strategie: Kaufkraft-Erhalt, der algori
 #### Transparenz-Check (Back-End)
 | A) Marktdaten (Engine) | B) Logik (Contract) | C) Wirkungsgrad (Ratio) |
 | :--- | :--- | :--- |
-| ![World Engine](audit_engine.png) | ![Shadow Logic](audit_logic.png) | ![Efficiency Ratio](audit_efficiency.png) |
+| ![World Engine](audit_world_engine.png) | ![Shadow Logic](audit_shadow_logic.png) | ![Efficiency Ratio](audit_efficiency.png) |
 
 ## 🧠 Die Logik hinter den Zahlen
 
